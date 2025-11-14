@@ -1,0 +1,37 @@
+{
+  "created_at": "2025-09-15T15:15:14Z",
+  "models": [
+    {
+      "id": "Chemical",
+      "path": "Chemical",
+      "files": 6,
+      "size_bytes": 862301954
+    },
+    {
+      "id": "Disease",
+      "path": "Disease",
+      "files": 5,
+      "size_bytes": 431140649
+    },
+    {
+      "id": "Gene",
+      "path": "Gene",
+      "files": 5,
+      "size_bytes": 431140650
+    }
+  ],
+  "mappings": [
+    {
+      "repo_id": "alvaroalon2/biobert_diseases_ner",
+      "target": "Disease"
+    },
+    {
+      "repo_id": "alvaroalon2/biobert_genetic_ner",
+      "target": "Gene"
+    },
+    {
+      "repo_id": "alvaroalon2/biobert_chemical_ner",
+      "target": "Chemical"
+    }
+  ]
+}

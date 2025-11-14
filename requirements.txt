@@ -1,0 +1,30 @@
+# Medical NLP Lean Package - Core Dependencies
+# Python 3.11+ required
+
+# Core NLP & ML
+spacy>=3.7.2
+negspacy>=1.0.4
+scispacy>=0.5.3
+transformers>=4.30.0
+torch>=2.0.0
+
+# BioBERT Models (installed separately via transformers)
+# alvaroalon2/biobert_diseases_ner
+# alvaroalon2/biobert_chemical_ner
+# alvaroalon2/biobert_genetic_ner
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0
+
+# Visualization & UI
+streamlit>=1.28.0
+matplotlib>=3.7.0
+Pillow>=10.0.0
+
+# Utilities
+tqdm>=4.65.0
+python-dateutil>=2.8.2
+
+# Optional: Development tools (see requirements-test.txt)

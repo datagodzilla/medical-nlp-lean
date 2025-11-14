@@ -1,0 +1,31 @@
+# Test Logs Directory
+
+This directory contains test execution logs and summaries.
+
+## Log Files
+
+- `{testscript_name}_{timestamp}.log` - Individual test failure logs
+- `test_summary_{timestamp}.txt` - Master test execution summaries
+
+## Retention Policy
+
+- Logs are kept for debugging failed tests
+- Clean up logs older than 30 days to save space
+- Use `./cleanup_test_logs.sh` to remove old logs
+
+## Log Format
+
+### Individual Test Logs
+Each failed test creates a log file with:
+- Test name and timestamp
+- Error messages and stack traces
+- Environment information
+- Failed assertions
+
+### Summary Logs
+Master test execution creates summary files with:
+- Total tests run
+- Pass/fail counts by category
+- Execution time
+- Failed test list
+- Coverage statistics
